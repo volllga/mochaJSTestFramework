@@ -5,9 +5,10 @@
 var assert = require('assert');
 describe('Mathematical Operations - Test Suite', function (){
 
+    let a = 10;
+    let b = 10;
+
     it('Addition of two numbers', function () {
-        let a = 10;
-        let b = 10;
 
         let c = a + b;
 
@@ -16,8 +17,6 @@ describe('Mathematical Operations - Test Suite', function (){
     });
 
     it('Subtraction of two numbers', function () {
-        let a = 10;
-        let b = 10;
 
         let c = a - b;
 
@@ -25,8 +24,6 @@ describe('Mathematical Operations - Test Suite', function (){
     });
 
     it('Multiplication of two numbers', function () {
-        let a = 10;
-        let b = 10;
 
         let c = a * b;
 
@@ -34,8 +31,6 @@ describe('Mathematical Operations - Test Suite', function (){
     });
 
     it('Division of two numbers', function () {
-        let a = 10;
-        let b = 10;
 
         let c = a / b;
 
